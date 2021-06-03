@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: "Upcoming Topics"
+title: "下一次组会"
 ---
 
 <section class="content">
@@ -8,9 +8,8 @@ title: "Upcoming Topics"
 Upcoming Topics
 ===============
 
-**Fall 2018**
 
-This is some material about upcoming meetings for your group.
+**下期组会材料**
 
 <ul class="listing">
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}

@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: "About"
+title: "关于"
 ---
 
 <!-- You can edit this whole page, remove it, or use it as basis for any non-post pages you have. -->
@@ -10,7 +10,7 @@ title: "About"
 
 <ul class="listing">
 <li>
-<span>Fall 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+<span>2020-2021学期</span><a href="{{ site.url }}/upcoming.html">下期组会</a>
 </li>
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
   {% for post in upcoming reversed %}
@@ -21,31 +21,15 @@ title: "About"
     {% endif %}
   {% endfor %}
 <li>
-<span>2015-2016</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
+<a href="{{ site.url }}/previous.html">Previous Topics</a>
 </li>
 </ul>
 
 
 ## What:
 
-This is a description of your group.
+同济大学-华中师范大学联合理论组会
 
-## Where:
 
-This is where your group's meetings are held.
-
-## When:
-
-This is when your group meets.
-
-## How:
-
-### Participation
-
-This is how you participate in your group.
-
-### Communications
-
-Links to various lists and chat services.
 
 </section>
